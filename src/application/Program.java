@@ -17,7 +17,7 @@ public class Program {
 		list.add(new Product("Tablet", 350.50));
 		list.add(new Product("HD Case", 80.90));
 		
-		list.forEach(Product:: staticPriceUpdate);	//reference method com método estático
+		list.forEach(Product:: nonStaticPriceUpdate);	//reference method com não método estático
 		
 		list.forEach(System.out::println); // reference method
 		
